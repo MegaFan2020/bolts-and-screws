@@ -1,0 +1,7 @@
+,,precision,precision,recall,recall,accuracy,accuracy,iou,iou,n_gt,n_gt,n_pred,n_pred,inst_tp,inst_tp,inst_fp,inst_fp,inst_fn,inst_fn,merges,merges,splits,splits,count_err,count_err
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+aug,method,,,,,,,,,,,,,,,,,,,,,,,,
+False,adaptive,0.957,0.026,0.798,0.073,0.99,0.004,0.768,0.052,8.6,0.894,10.2,0.837,8.4,1.14,1.8,0.837,0.2,0.447,0.0,0.0,0.2,0.447,1.6,0.894
+False,kmeans,0.968,0.007,0.957,0.013,0.997,0.001,0.927,0.01,8.6,0.894,8.6,0.894,8.6,0.894,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+False,otsu,0.965,0.004,0.966,0.003,0.997,0.001,0.933,0.007,8.6,0.894,8.6,0.894,8.6,0.894,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+False,pixel_rf,0.927,0.029,0.975,0.02,0.996,0.001,0.905,0.012,8.6,0.894,8.8,1.095,8.6,0.894,0.2,0.447,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.447
